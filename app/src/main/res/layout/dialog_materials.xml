@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvMaterialTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvMaterialDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="TextView"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape"
+        android:padding="8dp"
+        android:text="Click to Download"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

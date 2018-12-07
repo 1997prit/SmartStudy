@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_materialtype"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.hp.smartstudy.MaterialtypeActivity">
+
+    <ListView
+        android:id="@+id/lvmaterialtype"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="2dp"></ListView>
+</LinearLayout>

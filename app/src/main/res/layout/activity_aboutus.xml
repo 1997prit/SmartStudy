@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.smartstudy.AboutusActivity">
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:text="About Us"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tvaboutus"
+        android:paddingTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Whether you are a current member of the Solaris Public Schools family, or a family seeking quality educational \n options for your child for the future, I hope that this newsletter will provide you with important information about. \nchild's educational experience can and will change for the better in the coming year. Both new programs and success stories are provided here to help you with determining the best choices for your child's education.I truly believe that Solaris Public School is at the most important crossroads in its history.We must make necessary \n bold changes quickly in order to ensure that we will not just survive, but thrive. To help us achieve this, Solaris Public Schools has engaged in an historic strategic planning process \n involving parents, students, teachers, principals, staff, clergy, civic and community leaders and policymakers, working to help us betterunderstand how to improve. \n our performance and customer service, broaden services and provide desired programs, all within a safe learning environment.
+Our strategic plan /n will be the roadmap we follow to create a stronger, more sustainable district that will not only maintain the students we have "
+        />
+</LinearLayout>

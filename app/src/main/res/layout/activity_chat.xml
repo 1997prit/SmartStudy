@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header aligned to top -->
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FC9"
+        android:gravity="center"></RelativeLayout>
+
+    <!-- Footer aligned to bottom -->
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/etMsg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:hint="Type your Message here..."
+                android:paddingLeft="10dp"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btnsendchat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="90"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_send" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Content below header and above footer -->
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/lvchat"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/colorAccent"
+            android:dividerHeight="2dp"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll" />
+    </RelativeLayout>
+
+</RelativeLayout>
